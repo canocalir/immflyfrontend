@@ -1,8 +1,8 @@
 <h1>Immfly Front-end Developer Test</h1>
 
-## Available Scripts
+## Live Admin Panel
 
-In the project directory, you can run:
+<a href="https://immfly-frontend-test.herokuapp.com/"> Click Here for Live Demo </a>
 
 ### `npm start`
 
