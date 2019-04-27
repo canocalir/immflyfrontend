@@ -1,0 +1,23 @@
+.users {
+    margin-left: 80px;
+    float: left;
+    width: 50%;
+    padding: 20px;
+    margin-top: 10px;
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
+}
+
+@media screen and (max-width: 800px) {
+    .users {
+        margin-left: 70px;
+        float: left;
+        width: 80%;
+        padding: 20px;
+        margin-top: 10px;
+        -moz-box-shadow:    3px 3px 5px 6px #ccc;
+        -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+        box-shadow:         3px 3px 5px 6px #ccc;
+    }
+  }
