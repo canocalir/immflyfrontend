@@ -18,5 +18,5 @@ Depends on some developers, it's an interpreted language actually because while 
 
 #### Answer
 
-Ofcourse with Babel.js ---> It's a toolchain to help us convert ES2015 code for make it usable and be recognized by all/old browsers. It's already included in <strong>create-react-app</strong> 
+Ofcourse with Babel.js ---> It's a toolchain to help us convert ES2015 code to make it usable and be recognized by all/old browsers. It's already included in <strong>create-react-app</strong> 
 
