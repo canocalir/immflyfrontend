@@ -6,6 +6,16 @@
 
 ## Questions and Answers
 
+### 1. In the browser runtime, Javascript is a ...
+a. ... compiled language
+b. ... transpiled language
+c. ... interpreted language
+
+#### Answer
+Depends on some developers, it's an interpreted language actually because while runtime its interpreted by the client browser but, thanks to JIT compiles code just before execution we can think about it as compiled/interpreted hybrid too. (JIT === Just in Time Compiler)
+
+2. How would you or which tool would you use ECMAScript6 in a project in order to make it
+backwards compatible with all/old browsers?
 
 
 ## Learn More
