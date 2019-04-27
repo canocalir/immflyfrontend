@@ -16,7 +16,7 @@ Depends on some developers, it's an interpreted language actually because while 
 
 ### 2. How would you or which tool would you use ECMAScript6 in a project in order to make it backwards compatible with all/old browsers?
 
-Ofcourse with Babel.js ---> It's a toolchain to help us convert ES2015 code for make it usable and be recognized by all/old browsers. It's already included in #create-react-app 
+Ofcourse with Babel.js ---> It's a toolchain to help us convert ES2015 code for make it usable and be recognized by all/old browsers. It's already included in <strong>create-react-app</strong> 
 
 
 ## Learn More
