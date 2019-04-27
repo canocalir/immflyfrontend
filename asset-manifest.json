@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/immflyfrontend/static/css/main.5706caca.chunk.css",
+    "main.js": "/immflyfrontend/static/js/main.a867a372.chunk.js",
+    "main.js.map": "/immflyfrontend/static/js/main.a867a372.chunk.js.map",
+    "runtime~main.js": "/immflyfrontend/static/js/runtime~main.8fafd13e.js",
+    "runtime~main.js.map": "/immflyfrontend/static/js/runtime~main.8fafd13e.js.map",
+    "static/css/2.f0feb1ce.chunk.css": "/immflyfrontend/static/css/2.f0feb1ce.chunk.css",
+    "static/js/2.89b1d2ee.chunk.js": "/immflyfrontend/static/js/2.89b1d2ee.chunk.js",
+    "static/js/2.89b1d2ee.chunk.js.map": "/immflyfrontend/static/js/2.89b1d2ee.chunk.js.map",
+    "index.html": "/immflyfrontend/index.html",
+    "precache-manifest.1bf18d259f6123257e4029e7dce04195.js": "/immflyfrontend/precache-manifest.1bf18d259f6123257e4029e7dce04195.js",
+    "service-worker.js": "/immflyfrontend/service-worker.js",
+    "static/css/2.f0feb1ce.chunk.css.map": "/immflyfrontend/static/css/2.f0feb1ce.chunk.css.map",
+    "static/css/main.5706caca.chunk.css.map": "/immflyfrontend/static/css/main.5706caca.chunk.css.map",
+    "static/media/semantic.min.css": "/immflyfrontend/static/media/outline-icons.ef60a4f6.woff",
+    "static/media/immfly-logo-white.png": "/immflyfrontend/static/media/immfly-logo-white.dc7f4fa0.png",
+    "static/media/thy.png": "/immflyfrontend/static/media/thy.b57a5cc7.png"
+  }
+}
