@@ -113,4 +113,20 @@ console.log(hello())
 #### Answer
 ```value: 'goodbye'```
 ```value: 'hello'```
-*It returns the objects  with all of the properties and values. If you want to call only one properties value inside an object we can use ```goodbye().value``` or ```hello().value 
+*It returns the objects  with all of the properties and values. If you want to call only one properties value inside an object we can use ```goodbye().value``` or ```hello().value```
+
+### 12. What is the output of this code? Maybe it is undefined, or not.
+```javascript
+function sum () {
+let result = 0
+for (const argument of arguments) {
+result += argument
+}
+return result
+}
+console.log(sum(1, 2, '1', 2))
+```
+
+#### Answer
+*There is a for...of loop inside and it iterates through arguments. While ```result += argument``` and with help of the for...of loop we will sum the values of arguments. (1 + 2 + '1' + 2) ---> 312  It returns 312 because '1' is a string and it will just goes to the right side of the 1 + 2 = 3 number value and then because of '1' is a string '2' at the end of the line will also goes to the right side of the '1'.
+
