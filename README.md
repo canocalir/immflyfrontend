@@ -12,19 +12,19 @@ b. ... transpiled language
 c. ... interpreted language
 
 #### Answer
-Depends on some developers, it's an interpreted language actually because while runtime its interpreted by the client browser but, thanks to JIT compiles code just before execution we can think about it as compiled/interpreted hybrid too. (JIT === Just in Time Compiler)
+*Depends on some developers, it's an interpreted language actually because while runtime its interpreted by the client browser but, thanks to JIT compiles code just before execution we can think about it as compiled/interpreted hybrid too. (JIT === Just in Time Compiler)
 
 ### 2. How would you or which tool would you use ECMAScript6 in a project in order to make it backwards compatible with all/old browsers?
 
 #### Answer
 
-Ofcourse with Babel.js ---> It's a toolchain to help us convert ES2015 code to make it usable and be recognized by all/old browsers. It's already bundled in <strong>create-react-app</strong> 
+*Ofcourse with Babel.js ---> It's a toolchain to help us convert ES2015 code to make it usable and be recognized by all/old browsers. It's already bundled in <strong>create-react-app</strong> 
 
 ### 3. How would you structure this page into components? Use common sense.
 
 #### Answer
 
-You can find the folder structure above in the repository. Besides, i've already built it and deployed on Heroku, its prototype version. You can check the live demo on <a href="https://immfly-frontend-test.herokuapp.com/"> Click Here for Live Demo </a>
+*You can find the folder structure above in the repository. Besides, i've already built it and deployed on Heroku, its prototype version. You can check the live demo on <a href="https://immfly-frontend-test.herokuapp.com/"> Click Here for Live Demo </a>
 
 ** Logos and the corporate colors will be changed with dummy content after the test due to copyright issues.
 ** Please wait for a while after clicking the link, it can take a while because of its free tier on Heroku.
@@ -34,7 +34,7 @@ You can find the folder structure above in the repository. Besides, i've already
 
 #### Answer
 
-I'm aware the concept but don't know the pyramid, until i got that question. So, what i learned are as follows:
+*I'm aware the concept but don't know the pyramid, until i got that question. So, what i learned are as follows:
 * On React, for example components and functions are units.
 * Unit tests are fastest and not time consuming, budget solutions.
 * Writing lots of small unit test cost less time and money when compared with others.
@@ -54,13 +54,13 @@ If you think it is a problem, tell us how would you solve this dependency.
 
 #### Answer
 
-Using different versions of Node can create severe issues according to dependencies of the package. We need to use one stable version by entire team. We can manage it by "nvm" or reinstall the latest stable version by all team.
+*Using different versions of Node can create severe issues according to dependencies of the package. We need to use one stable version by entire team. We can manage it by "nvm" or reinstall the latest stable version by all team.
 
 ### 6. We have this project structure (it is simplified).If you have to add a new component Button and a new service/class/manager for authorization, and both will be used on login and dashboard section, how would you structure those new features in the project ?
 
 #### Answer
 
-I add <strong>"authorizations"</strong> / <strong>"components"</strong> folders under <strong>"sections"</strong> folder. Add the <strong>Button.jsx</strong> and <strong>Button.scss</strong> under that folder.
+*I add <strong>"authorizations"</strong> / <strong>"components"</strong> folders under <strong>"sections"</strong> folder. Add the <strong>Button.jsx</strong> and <strong>Button.scss</strong> under that folder.
 
 ### 8. What is the output of this code?
 ``` javascript
@@ -71,4 +71,17 @@ console.log(compare((1 - 1).toString()))
 ```
 
 #### Answer 
+*Output is 'A' ,because '==' operator is not also equity of types, its just passing the value 'A' or 'B' to 'a', but while returning and console logging we compare the value with 0 (false) and convert the final value to a string.
+
+### 9. What is the output of this code?
+```javascript
+function compare (a) {
+return a === false ? 'A' : 'B'
+}
+console.log(compare((1 - 1).toString())) //added one missing parantheses to the end.
+```
+
+#### Answer
+*First of all there is a syntax error. (One parantheses is missing from the last line end)
+Output is 'B' after i made correction to syntax because, this time we are not only passing the <strong>value</strong> also we are comparing the <strong>types</strong> too. So, (1 - 1 = 0) is a 'number' and 'false' is a boolean. While we are comparing the values, we are also comparing the types. Because of that it returns 'B' as answer.
 
