@@ -48,6 +48,7 @@ c. ... interpreted language
 * If you are using minimal unit tests and much manual tests with E2E too, your project is going to be very complicated.
 <br>
 <br>
+
 ### 5. In your company there are three frontend developers working on the same react project, and each one is using a different version of NodeJS and there are packages that depend on the NodeJS version:
 a. Ricard is using 10.0.6 version.
 b. Nico is using 8.11.4 version.
@@ -177,6 +178,7 @@ const sumAndMultiply = (a, b) =>  a + b + a * b;
 ```
 <br>
 <br>
+
 ### 15. What is the output of this code? Maybe it is undefined, or not.
 ```javascript
 let a = [1, goodbye', 3] //If you don't add '(quote) at the beginning of 'goodbye' it won't run
