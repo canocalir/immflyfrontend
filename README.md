@@ -13,21 +13,15 @@ c. ... interpreted language
 
 #### Answer
 *Depends on some developers, it's an interpreted language actually because while runtime its interpreted by the client browser but, thanks to JIT compiles code just before execution we can think about it as compiled/interpreted hybrid too. (JIT === Just in Time Compiler)
-
-
-
-
-
+<br>
+<br>
 ### 2. How would you or which tool would you use ECMAScript6 in a project in order to make it backwards compatible with all/old browsers?
 
 #### Answer
 
 *Ofcourse with Babel.js ---> It's a toolchain to help us convert ES2015 code to make it usable and be recognized by all/old browsers. It's already bundled in <strong>create-react-app</strong> 
-
-
-
-
-
+<br>
+<br>
 ### 3. How would you structure this page into components? Use common sense.
 
 #### Answer
@@ -37,10 +31,8 @@ c. ... interpreted language
 ** Logos and the corporate colors will be changed with dummy content after the test due to copyright issues.
 ** Please wait for a while after clicking the link, it can take a while because of its free tier on Heroku.
 ** It can also built by OracleJET easily. I'm still learning the core concepts of OracleJET. Mostly its used on Admin Panels and Graphs. 
-
-
-
-
+<br>
+<br>
 ### 4. Do you know what the frontend testing pyramid is?
 
 #### Answer
@@ -54,11 +46,8 @@ c. ... interpreted language
 * Use very few high level tests.
 * Avoid for ice-cream cone formation.
 * If you are using minimal unit tests and much manual tests with E2E too, your project is going to be very complicated.
-
-
-
-
-
+<br>
+<br>
 ### 5. In your company there are three frontend developers working on the same react project, and each one is using a different version of NodeJS and there are packages that depend on the NodeJS version:
 a. Ricard is using 10.0.6 version.
 b. Nico is using 8.11.4 version.
@@ -70,32 +59,22 @@ If you think it is a problem, tell us how would you solve this dependency.
 #### Answer
 
 *Using different versions of Node can create severe issues according to dependencies of the package. We need to use one stable version by entire team. We can manage it by "nvm" or reinstall the latest stable version by all team.
-
-
-
-
-
-
+<br>
+<br>
 ### 6. We have this project structure (it is simplified).If you have to add a new component Button and a new service/class/manager for authorization, and both will be used on login and dashboard section, how would you structure those new features in the project ?
 
 #### Answer
 
 *I add <strong>"authorizations"</strong> / <strong>"components"</strong> folders under <strong>"sections"</strong> folder. Add the <strong>Button.jsx</strong> and <strong>Button.scss</strong> under that folder.
-
-
-
-
-
-
+<br>
+<br>
 ### 7. Git. If your are working in a project and default branch is master, what steps would you follow to implement a new feature? If you are working in a local branch named 'my-local-branch', and there are new changes on 'master branch' and you want to get those changes locally, what would you do?
 
 #### Answer
 
 *
-
-
-
-
+<br>
+<br>
 ### 8. What is the output of this code?
 ``` javascript
 function compare (a) {
@@ -106,11 +85,8 @@ console.log(compare((1 - 1).toString()))
 
 #### Answer 
 *Output is 'A' ,because '==' operator is not also equity of types, its just passing the value 'A' or 'B' to 'a', but while returning and console logging we compare the value with 0 (false) and convert the final value to a string.
-
-
-
-
-
+<br>
+<br>
 ### 9. What is the output of this code?
 ```javascript
 function compare (a) {
@@ -122,12 +98,8 @@ console.log(compare((1 - 1).toString())) //added one missing parantheses to the 
 #### Answer
 *First of all there is a syntax error. (One parantheses is missing from the last line end)
 Output is 'B' after i made correction to syntax because, this time we are not only passing the <strong>value</strong> also we are comparing the <strong>types</strong> too. So, (1 - 1 = 0) is a 'number' and 'false' is a boolean. While we are comparing the values, we are also comparing the types. Because of that it returns 'B' as answer.
-
-
-
-
-
-
+<br>
+<br>
 ### 10. What is the output of this code?
 ```javascript
 const compare = (a, b) => a === b
@@ -136,12 +108,8 @@ console.log(compare(1, '1'))
 
 #### Answer
 *It's returning <strong>false</strong> as output because again there is a 'strict comparison' operator '===' used. Checking the given parameters 1 (is a number) and '1' (is a string) type and value are the same or not then because of the types are not equal it outputs as 'false'
-
-
-
-
-
-
+<br>
+<br>
 ### 11. What is the output of this code?
 ```javascript
 function hello () {
@@ -162,12 +130,8 @@ console.log(hello())
 ```value: 'goodbye'```
 ```value: 'hello'```
 *It returns the objects  with all of the properties and values. If you want to call only one properties value inside an object we can use ```goodbye().value``` or ```hello().value```
-
-
-
-
-
-
+<br>
+<br>
 ### 12. What is the output of this code? Maybe it is undefined, or not.
 ```javascript
 function sum () {
@@ -182,13 +146,8 @@ console.log(sum(1, 2, '1', 2))
 
 #### Answer
 *There is a for...of loop inside and it iterates through arguments. While ```result += argument``` and with help of the for...of loop we will sum the values of arguments. (1 + 2 + '1' + 2) ---> 312  It returns 312 because '1' is a string and it will just goes to the right side of the 1 + 2 = 3 number value and then because of '1' is a string '2' at the end of the line will also goes to the right side of the '1'.
-
-
-
-
-
-
-
+<br>
+<br>
 ### 13. If we are writing this code in ECMAScript 6 and we want the output to be: Hello. I like Javascript. Goodbye. If you only can change variables declaration, what would you change? Think in EC6 variables scope. Maybe you won't change anything.
 ```javascript
 var a = 'Hello. '
@@ -202,12 +161,8 @@ console.log(a + print())
 
 #### Answer
 *This is a very tricky question and the question is very simple. If we declare the variable 'a'(the one inside the function scope) before the ```return a + b``` we get the answer as 'Hello. I like Javascript. Goodbye.' Ok but why, because the other variable 'a' is hoisted in <strong>the first lines</strong> in global scope and it won't get another value inside the function.
-
-
-
-
-
-
+<br>
+<br>
 ### 14. If we are writing a sum and multiply function in ECMAScript 6, how would you simplify this code in only one line?
 ```javascript
 function sumAndMultiply (a, b) {
@@ -220,11 +175,8 @@ return result
 ```javascript
 const sumAndMultiply = (a, b) =>  a + b + a * b;
 ```
-
-
-
-
-
+<br>
+<br>
 ### 15. What is the output of this code? Maybe it is undefined, or not.
 ```javascript
 let a = [1, goodbye', 3] //If you don't add '(quote) at the beginning of 'goodbye' it won't run
@@ -235,11 +187,8 @@ console.log(a)
 
 #### Answer
 *It has a syntax error and you must add single quote before the goodbye its missing. After that it runs and gives the output ```[1, "goodbye", 3, "spread operator", undefined, "hello", 5, 6]``` thanks to '...' spread operators before arrays (it must be an array or object) 'a' and 'b' it will call every item inside the arrays. Spread operators expands the arrays or objects into its set of items.
-
-
-
-
-
+<br>
+<br>
 ### 16. Consider this array:
 ```javascript
 const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -253,11 +202,8 @@ const odds = [] = array;
 console.log(odds);
 ```
 *We will use filter method with if the value is not equal value or not equal type with 0 or remains 2, then we create an array 'odds' and store the 'array' arrays new items inside.
-
-
-
-
-
+<br>
+<br>
 ### 17. Consider this array:
 ```javascript
 const array = [
@@ -289,11 +235,8 @@ return acc;
 }, {});                                     //And a stating value '{}'(empty object)
 console.log(res);                           //Object { Camilo: "backend", Rafa: "frontend", Pedro: "operations" }
 ```
-
-
-
-
-
+<br>
+<br>
 ### 18. What is the output of this code:
 ```javascript
 var a = Person('a')
