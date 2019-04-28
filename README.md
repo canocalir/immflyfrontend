@@ -176,9 +176,38 @@ const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 #### Answer
 ```javascript
-const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter((number) => number %2 ! == 0);
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter((number) => number %2 !== 0);
 const odds = [] = array;
 console.log(odds);
 ```
-*We will use filter method with if the value is not 0 or remains 2, then we create an array 'odds' and store the 'array' arrays new items inside.
+*We will use filter method with if the value is not equal value or not equal type with 0 or remains 2, then we create an array 'odds' and store the 'array' arrays new items inside.
 
+#### 17. Consider this array:
+```javascript
+const array
+{
+name:
+},
+{
+name:
+},
+{
+name:
+}
+]
+= [
+'Camilo', team: 'backend',
+'Rafa', team: 'frontend',
+'Pedro', team: 'operations',
+```
+#### Write a chunk of code in ECMAScript 6 that transforms this array of dictionaries into a dictionary containing the names as keys and the team as value. Result:
+```javascript
+{
+Camilo: 'backend',
+Rafa: 'frontend',
+Pedro: 'operations'
+}
+```
+
+#### Answer
+*
