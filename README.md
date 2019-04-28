@@ -79,8 +79,8 @@ git add .                                   // add changes to git head
 git commit -m "Adding new files"            // commit files with a message '-m' to git head
 git push origin master                      // Push the files to remote master branch
 ```
-```git
 ##### --Second question
+```git
 git checkout my-local-branch                // Change the active branch to my-local-branch
 git pull origin master                      // Pull the new changes from remote master branch
 ```
