@@ -60,4 +60,4 @@ Using different versions of Node can create severe issues according to dependenc
 
 #### Answer
 
-I add <strong>"authorizations"</strong> and <strong>"components"</strong> folders under <strong>"sections"</strong> folder. Add the <strong>Button.jsx</strong> and <strong>Button.scss</strong> under that folder.
+I add <strong>"authorizations"</strong> / <strong>"components"</strong> folders under <strong>"sections"</strong> folder. Add the <strong>Button.jsx</strong> and <strong>Button.scss</strong> under that folder.
