@@ -130,3 +130,17 @@ console.log(sum(1, 2, '1', 2))
 #### Answer
 *There is a for...of loop inside and it iterates through arguments. While ```result += argument``` and with help of the for...of loop we will sum the values of arguments. (1 + 2 + '1' + 2) ---> 312  It returns 312 because '1' is a string and it will just goes to the right side of the 1 + 2 = 3 number value and then because of '1' is a string '2' at the end of the line will also goes to the right side of the '1'.
 
+### 13. If we are writing this code in ECMAScript 6 and we want the output to be: Hello. I like Javascript. Goodbye. If you only can change variables declaration, what would you change? Think in EC6 variables scope. Maybe you won't change anything.
+```javascript
+var a = 'Hello. '
+var b = 'Goodbye.'
+function print () {
+return a + b
+var a = 'I like Javascript. ' //Just change the place of that with return a + b
+}
+console.log(a + print())
+```
+
+#### Answer
+*This is a very tricky question and the question is very simple. If we declare the variable 'a'(the one inside the function scope) before the ```return a + b``` we get the answer as 'Hello. I like Javascript. Goodbye.' Ok but why, because the other variable 'a' is declared in <strong>global scope</strong> and it won't get another value inside the function.
+
