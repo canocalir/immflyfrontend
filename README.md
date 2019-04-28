@@ -188,21 +188,17 @@ console.log(odds);
 
 ### 17. Consider this array:
 ```javascript
-const array
+const array = [
 {
-name:
+name: 'Camilo', team: 'backend',
 },
 {
-name:
+name: 'Rafa', team: 'frontend',
 },
 {
-name:
+name: 'Pedro', team: 'operations',
 }
 ]
-= [
-'Camilo', team: 'backend',
-'Rafa', team: 'frontend',
-'Pedro', team: 'operations',
 ```
 ### Write a chunk of code in ECMAScript 6 that transforms this array of dictionaries into a dictionary containing the names as keys and the team as value. Result:
 ```javascript
@@ -214,4 +210,12 @@ Pedro: 'operations'
 ```
 
 #### Answer
-*
+*I take a look at some sources because at first i didin't get the exact answer then i've learned if i use 'reduce' method i can solve that. So i found a solution is as follows:
+```javascript
+const res = array.reduce((acc, curr) => {          //we should give accumulator and current value
+acc[curr.name] = curr.team;
+return acc;
+}, {});                                     //And a stating value '{}'(empty object)
+console.log(res);                           //Object { Camilo: "backend", Rafa: "frontend", Pedro: "operations" }
+```
+###
