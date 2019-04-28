@@ -152,7 +152,33 @@ return result
 }
 ```
 #### Answer
-The shortest version is below. Curly brackets not required if only one expression is present. Also we don't need to use return.
+*The shortest version is below. Curly brackets not required if only one expression is present. Also we don't need to use return.
 ```javascript
 const sumAndMultiply = (a, b) =>  a + b + a * b;
 ```
+
+### 15. What is the output of this code? Maybe it is undefined, or not.
+```javascript
+let a = [1, goodbye', 3] //If you don't add '(quote) at the beginning of 'goodbye' it won't run
+const b = ['hello', 5, 6]
+a = [...a, 'spread operator', undefined, ...b]
+console.log(a)
+```
+
+#### Answer
+*It has a syntax error and you must add single quote before the goodbye its missing. After that it runs and gives the output ```[1, "goodbye", 3, "spread operator", undefined, "hello", 5, 6]``` thanks to '...' spread operators before arrays (it must be an array or object) 'a' and 'b' it will call every item inside the arrays. Spread operators expands the arrays or objects into its set of items.
+
+### 16. Consider this array:
+```javascript
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+```
+### Write a chunk of code in ECMAScript 6 that stores in an other variable an array with only the odd numbers of this array. Simplify it as much as you can.
+
+#### Answer
+```javascript
+const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10].filter((number) => number %2 ! == 0);
+const odds = [] = array;
+console.log(odds);
+```
+*We will use filter method with if the value is not 0 or remains 2, then we create an array 'odds' and store the 'array' arrays new items inside.
+
