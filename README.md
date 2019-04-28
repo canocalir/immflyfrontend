@@ -93,3 +93,24 @@ console.log(compare(1, '1'))
 
 #### Answer
 *It's returning <strong>false</strong> as output because again there is a 'strict comparison' operator '===' used. Checking the given parameters 1 (is a number) and '1' (is a string) type and value are the same or not then because of the types are not equal it outputs as 'false'
+
+### 11. What is the output of this code?
+```javascript
+function hello () {
+return {
+value: 'hello'
+}
+}
+function goodbye () {
+return
+{
+value: 'goodbye'
+}
+}
+console.log(goodbye())
+console.log(hello())
+```
+#### Answer
+```value: 'goodbye'```
+```value: 'hello'```
+*It returns the objects  with all of the properties and values. If you want to call only one properties value inside an object we can use ```goodbye().value``` or ```hello().value 
