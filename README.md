@@ -56,44 +56,8 @@ If you think it is a problem, tell us how would you solve this dependency.
 
 Using different versions of Node can create severe issues according to dependencies of the package. We need to use one stable version by entire team. We can manage it by "nvm" or reinstall the latest stable version by all team.
 
-### 6. We have this project structure (it is simplified).
-  app/
-    .babelrc
-   src/
-      index.html
-      App.jsx
-      sections/
-         login/
-           components/
-           Login.jsx
-           Login.scss
-         dashboard/
-           components/
-           Dashboard.jsx
-           Dashboard.scss
-If you have to add a new component B
-utton and a new service/class/manager for
-authorization, and both will be used on login and d
-ashboard section, how would you
-structure those new features in the project ?
+### 6. We have this project structure (it is simplified).If you have to add a new component Button and a new service/class/manager for authorization, and both will be used on login and dashboard section, how would you structure those new features in the project ?
 
 #### Answer
-<code> app/
-    .babelrc
-   src/
-      index.html
-      App.jsx
-      sections/
-         authorization/
-           components/
-            Button.jsx
-            Button.scss
-         login/
-           components/
-           Login.jsx
-           Login.scss
-         dashboard/
-           components/
-           Dashboard.jsx
-           Dashboard.scss
-</code>
+
+I add <strong>"authorizations"</strong> and <strong>"components"</strong> folders under <strong>"sections"</strong> folder. Add the <strong>Button.jsx</strong> and <strong>Button.scss</strong> under that folder.
