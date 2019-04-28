@@ -85,3 +85,11 @@ console.log(compare((1 - 1).toString())) //added one missing parantheses to the 
 *First of all there is a syntax error. (One parantheses is missing from the last line end)
 Output is 'B' after i made correction to syntax because, this time we are not only passing the <strong>value</strong> also we are comparing the <strong>types</strong> too. So, (1 - 1 = 0) is a 'number' and 'false' is a boolean. While we are comparing the values, we are also comparing the types. Because of that it returns 'B' as answer.
 
+### 10. What is the output of this code?
+```javascript
+const compare = (a, b) => a === b
+console.log(compare(1, '1'))
+```
+
+#### Answer
+*It's returning <strong>false</strong> as output because again there is a 'strict comparison' operator '===' used. Checking the given parameters 1 (is a number) and '1' (is a string) type and value are the same or not then because of the types are not equal it outputs as 'false'
