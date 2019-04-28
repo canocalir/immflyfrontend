@@ -78,17 +78,16 @@ ashboard section, how would you
 structure those new features in the project ?
 
 #### Answer
-
- app/
+<code> app/
     .babelrc
    src/
       index.html
       App.jsx
       sections/
-   <strong>authorization/
+         authorization/
            components/
             Button.jsx
-            Button.scss</strong>
+            Button.scss
          login/
            components/
            Login.jsx
@@ -97,3 +96,4 @@ structure those new features in the project ?
            components/
            Dashboard.jsx
            Dashboard.scss
+</code>
