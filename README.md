@@ -27,5 +27,32 @@ Ofcourse with Babel.js ---> It's a toolchain to help us convert ES2015 code to m
 You can find the folder structure above in the repository. Besides, i've already built it and deployed on Heroku, its prototype version. You can check the live demo on <a href="https://immfly-frontend-test.herokuapp.com/"> Click Here for Live Demo </a>
 
 ** Logos and the corporate colors will be changed with dummy content after the test due to copyright issues.
+** Please wait for a while after clicking the link, it can take a while because of its free tier on Heroku.
+** It can also built by OracleJET easily. I'm still learning the core concepts of OracleJET. Mostly its used on Admin Panels and Graphs. 
 
-### 
+### 4. Do you know what the frontend testing pyramid is?
+
+#### Answer
+
+I'm aware the concept but don't know the pyramid, until i got that question. So, what i learned are as follows:
+* On React, for example components and functions are units.
+* Unit tests are fastest and not time consuming, budget solutions.
+* Writing lots of small unit test cost less time and money when compared with others.
+* Integration or snapshot tests are slower and we need to use them less. (component vs component comparison)
+* E2E test are end to end tests(it opens browser and)
+* Use very few high level tests.
+* Avoid for ice-cream cone formation.
+* If you are using minimal unit tests and much manual tests with E2E too, your project is going to be very complicated.
+
+### 5. In your company there are three frontend developers working on the same react project, and each one is using a different version of NodeJS and there are packages that depend on the NodeJS version:
+a. Ricard is using 10.0.6 version.
+b. Nico is using 8.11.4 version.
+c. Albert is using 6.14.1 version.
+
+Do you think it is a problem? Why?
+If you think it is a problem, tell us how would you solve this dependency.
+
+#### Answer
+
+Using different versions of Node can create severe issues according to dependencies of the package. We need to use one stable version by entire team. We can manage it by "nvm" or reinstall the latest stable version by all team.
+
