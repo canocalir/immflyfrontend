@@ -72,8 +72,18 @@ If you think it is a problem, tell us how would you solve this dependency.
 ### 7. Git. If your are working in a project and default branch is master, what steps would you follow to implement a new feature? If you are working in a local branch named 'my-local-branch', and there are new changes on 'master branch' and you want to get those changes locally, what would you do?
 
 #### Answer
-
-*
+##### --First question
+```git
+git branch                                  // make sure which branch i'm in
+git add .                                   // add changes to git head
+git commit -m "Adding new files"            // commit files with a message '-m' to git head
+git push origin master                      // Push the files to remote master branch
+```
+```git
+##### --Second question
+git checkout my-local-branch                // Change the active branch to my-local-branch
+git pull origin master                      // Pull the new changes from remote master branch
+```
 <br>
 <br>
 
