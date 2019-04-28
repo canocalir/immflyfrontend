@@ -144,3 +144,15 @@ console.log(a + print())
 #### Answer
 *This is a very tricky question and the question is very simple. If we declare the variable 'a'(the one inside the function scope) before the ```return a + b``` we get the answer as 'Hello. I like Javascript. Goodbye.' Ok but why, because the other variable 'a' is declared in <strong>global scope</strong> and it won't get another value inside the function.
 
+### 14. If we are writing a sum and multiply function in ECMAScript 6, how would you simplify this code in only one line?
+```javascript
+function sumAndMultiply (a, b) {
+const result = a + b + a * b
+return result
+}
+```
+#### Answer
+The shortest version is below. Curly brackets not required if only one expression is present. Also we don't need to use return.
+```javascript
+const sumAndMultiply = (a, b) =>  a + b + a * b;
+```
