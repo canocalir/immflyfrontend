@@ -62,6 +62,10 @@ If you think it is a problem, tell us how would you solve this dependency.
 
 *I add <strong>"authorizations"</strong> / <strong>"components"</strong> folders under <strong>"sections"</strong> folder. Add the <strong>Button.jsx</strong> and <strong>Button.scss</strong> under that folder.
 
+#### 7.
+
+#### Answer
+
 ### 8. What is the output of this code?
 ``` javascript
 function compare (a) {
