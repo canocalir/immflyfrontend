@@ -182,7 +182,7 @@ console.log(odds);
 ```
 *We will use filter method with if the value is not equal value or not equal type with 0 or remains 2, then we create an array 'odds' and store the 'array' arrays new items inside.
 
-#### 17. Consider this array:
+### 17. Consider this array:
 ```javascript
 const array
 {
@@ -200,7 +200,7 @@ name:
 'Rafa', team: 'frontend',
 'Pedro', team: 'operations',
 ```
-#### Write a chunk of code in ECMAScript 6 that transforms this array of dictionaries into a dictionary containing the names as keys and the team as value. Result:
+### Write a chunk of code in ECMAScript 6 that transforms this array of dictionaries into a dictionary containing the names as keys and the team as value. Result:
 ```javascript
 {
 Camilo: 'backend',
