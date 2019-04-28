@@ -76,6 +76,7 @@ If you think it is a problem, tell us how would you solve this dependency.
 *
 <br>
 <br>
+
 ### 8. What is the output of this code?
 ``` javascript
 function compare (a) {
@@ -239,6 +240,7 @@ console.log(res);                           //Object { Camilo: "backend", Rafa: 
 ```
 <br>
 <br>
+
 ### 18. What is the output of this code:
 ```javascript
 var a = Person('a')
