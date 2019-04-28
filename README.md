@@ -208,7 +208,6 @@ Rafa: 'frontend',
 Pedro: 'operations'
 }
 ```
-
 #### Answer
 *I take a look at some sources because at first i didin't get the exact answer then i've learned if i use 'reduce' method i can solve that. So i found a solution is as follows:
 ```javascript
@@ -218,4 +217,18 @@ return acc;
 }, {});                                     //And a stating value '{}'(empty object)
 console.log(res);                           //Object { Camilo: "backend", Rafa: "frontend", Pedro: "operations" }
 ```
-###
+
+### 18. What is the output of this code:
+```javascript
+var a = Person('a')
+var b = new Person('b')
+var c = Person
+function Person(name) {
+this.first_name = name
+}
+console.log(a.first_name)
+console.log(b.first_name)
+console.log(c.first_name)
+```
+#### Answer
+*While we are adding a new first_name parameter value to 'Person' function, we must use 'new' then function name then the parameter value. It's a simple function with first_name property = name parameter. 'var c' is undefined because 'Person' function never called just stored in 'variable c'
