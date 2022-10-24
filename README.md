@@ -1,6 +1,7 @@
 <h1>Immfly Front-end Developer Test</h1>
 
 ## Live Admin Panel
+![immifly](https://user-images.githubusercontent.com/11324886/197594289-b3d34e17-18ef-4c97-a926-cab893400871.gif)
 
 <a href="https://immfly-frontend-test.herokuapp.com/"> Click Here for Live Demo </a>
 <br>
